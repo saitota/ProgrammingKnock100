@@ -1,4 +1,4 @@
-def crypter(texts):
+def cipher(texts):
     ret = ''
     for text in texts:
         #a-zなら
@@ -7,7 +7,7 @@ def crypter(texts):
         ret += text
     return ret
 
-print(crypter('私は Taro Yamada です'))
+print(cipher('私は Taro Yamada です'))
 # 私は Tzil Yznzwz です
-print(crypter(crypter('私は Taro Yamada です')))
+print(cipher(cipher('私は Taro Yamada です')))
 # 私は Taro Yamada です
