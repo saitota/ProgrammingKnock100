@@ -1,4 +1,5 @@
 import re
+import json
 import urllib.request
 # dct_country は Q20 にて取得済みとする
 match = re.findall('^\{\{基礎情報(.*?)\}\}$',dct_country.get('text'),re.MULTILINE+re.DOTALL)
